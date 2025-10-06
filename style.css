@@ -15,7 +15,7 @@ body {
   background:
     /* léger voile global pour uniformiser les hautes lumières */
     linear-gradient(180deg, rgba(0,0,0,.05) 0%, rgba(0,0,0,.35) 65%, rgba(0,0,0,.55) 100%),
-    url("../images/hero-bg.jpg") center 20% / cover no-repeat #000;
+    url("static/images/hero-bg.jpg") center 20% / cover no-repeat #000;
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -328,7 +328,7 @@ body {
   color: #fff;
   background: 
     linear-gradient(to right, rgba(0,0,0,0.7) 30%, rgba(0,0,0,0.2) 70%), 
-    url("../images/feature-bg.jpg") center / cover no-repeat;  
+    url("static/images/feature-bg.jpg") center / cover no-repeat;  
   padding: 80px 0;
 }
 
@@ -507,7 +507,7 @@ body {
   padding: 80px 0;
   background:
     linear-gradient(180deg, rgba(0,0,0,.65), rgba(0,0,0,.85)), /* voile sombre pour lisibilité */
-    url("../images/requirements-bg.jpg") center center / cover no-repeat;
+    url("static/images/requirements-bg.jpg") center center / cover no-repeat;
   background-attachment: fixed; 
 }
 
@@ -758,7 +758,7 @@ h2.title-xl.quotes-title {
   position: absolute;
   inset: 0;
   background:
-    url("../images/newsletter-bg11.jpg");
+    url("static/images/newsletter-bg11.jpg");
   z-index: 0;
 }
 
@@ -850,7 +850,7 @@ h2.title-xl.quotes-title {
     --artW: 100vw; 
   }
   .newsletter-section::before {
-    background: url("../images/newsletter-bg.jpg") center 25% / cover no-repeat,
+    background: url("static/images/newsletter-bg.jpg") center 25% / cover no-repeat,
       #0a0a0a;
     opacity: 0.35; 
   }
@@ -933,4 +933,5 @@ h2.title-xl.quotes-title {
   .footer-nav{ justify-content:flex-start; gap:18px; flex-wrap:wrap; }
   .footer-bottom{ flex-direction:column; align-items:flex-start; gap:8px; }
 }
+
 
