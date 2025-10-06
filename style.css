@@ -7,9 +7,6 @@ body {
   padding-right: 20px;
 }
 
-
-
-
 /********************** ===== HERO ===== ***********************************/
 .hero{
   position: relative;
@@ -31,7 +28,6 @@ body {
   pointer-events:none;
   z-index:1; 
 }
-
 
 /* voile sombre léger façon maquette */
 .hero::after{
@@ -142,14 +138,12 @@ body {
   .hero{ background-position: center 30%; }
 }
 
-
 /* ===== Layout commun ===== */
 .container{
   width: min(1100px, 92vw);
   margin: 0 auto;
   padding: 60px 0;
 }
-
 
 /***************** ====== Section ABOUT  ====== ************/
 .about-maq{ background:#0a0a0a; color:#fff; padding:72px 0; }
@@ -328,8 +322,6 @@ body {
   .sos-slider{ width:min(560px,96vw); }
 }
 
-
-
 /*************** ===== Section3 FEATURES ===== ***********************/
 .features {
   position: relative;
@@ -413,8 +405,6 @@ body {
   color: #d8d8d8;
   line-height: 1.6;
 }
-
-
 
 /* ===== Accordéon en mode TIMELINE (ligne + pastilles à gauche) ===== */
 .accordion.timeline{
@@ -500,7 +490,6 @@ body {
   max-height: 240px;                
   padding-top: 6px;
 }
-
 
 /* -------- Système typographique pour ce bloc -------- */
 .title-xxl{
@@ -632,7 +621,6 @@ body {
   .req-key{ border-right:0; }
 }
 
-
 /************************* ===== PRESS QUOTES (identique maquette) ===== ******************/
 .quotes{
   background: #0a0a0a;
@@ -750,7 +738,6 @@ h2.title-xl.quotes-title {
     position: static; transform: none; width: 100%;
   }
 }
-
 
 /********* ===== NEWSLETTER (avant footer) ===== *****************/
 
@@ -872,8 +859,6 @@ h2.title-xl.quotes-title {
   }
 }
 
-
-
 /********** ===== FOOTER (maquette) ===== ************/
 .footer{
   background:#0a0a0a; 
@@ -948,3 +933,4 @@ h2.title-xl.quotes-title {
   .footer-nav{ justify-content:flex-start; gap:18px; flex-wrap:wrap; }
   .footer-bottom{ flex-direction:column; align-items:flex-start; gap:8px; }
 }
+
